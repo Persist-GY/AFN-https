@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE48569DD689B1A63876933 /* libPods-AFN-HTTPS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2D4DC174E3DB1492C3FDC0 /* libPods-AFN-HTTPS.a */; };
+		A992384C1D30AFEA00FFE27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A992384B1D30AFEA00FFE27D /* main.m */; };
+		A992384F1D30AFEA00FFE27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A992384E1D30AFEA00FFE27D /* AppDelegate.m */; };
+		A99238551D30AFEA00FFE27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99238531D30AFEA00FFE27D /* Main.storyboard */; };
+		A99238571D30AFEA00FFE27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99238561D30AFEA00FFE27D /* Assets.xcassets */; };
+		A992385A1D30AFEA00FFE27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99238581D30AFEA00FFE27D /* LaunchScreen.storyboard */; };
+		A99238651D30AFEA00FFE27D /* AFN_HTTPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99238641D30AFEA00FFE27D /* AFN_HTTPSTests.m */; };
+		A99238701D30AFEA00FFE27D /* AFN_HTTPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A992386F1D30AFEA00FFE27D /* AFN_HTTPSUITests.m */; };
+		A9AF81CF1D336A9100FBE233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF81CE1D336A9100FBE233 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99238611D30AFEA00FFE27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A992383F1D30AFEA00FFE27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99238461D30AFEA00FFE27D;
+			remoteInfo = "AFN-HTTPS";
+		};
+		A992386C1D30AFEA00FFE27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A992383F1D30AFEA00FFE27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99238461D30AFEA00FFE27D;
+			remoteInfo = "AFN-HTTPS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A962DE4F45C528C68F8B35 /* Pods-AFN-HTTPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN-HTTPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFN-HTTPS/Pods-AFN-HTTPS.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2D4DC174E3DB1492C3FDC0 /* libPods-AFN-HTTPS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFN-HTTPS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99238471D30AFEA00FFE27D /* AFN-HTTPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFN-HTTPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A992384B1D30AFEA00FFE27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A992384D1D30AFEA00FFE27D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A992384E1D30AFEA00FFE27D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A99238501D30AFEA00FFE27D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A99238541D30AFEA00FFE27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A99238561D30AFEA00FFE27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99238591D30AFEA00FFE27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A992385B1D30AFEA00FFE27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99238601D30AFEA00FFE27D /* AFN-HTTPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN-HTTPSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99238641D30AFEA00FFE27D /* AFN_HTTPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFN_HTTPSTests.m; sourceTree = "<group>"; };
+		A99238661D30AFEA00FFE27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A992386B1D30AFEA00FFE27D /* AFN-HTTPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN-HTTPSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A992386F1D30AFEA00FFE27D /* AFN_HTTPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFN_HTTPSUITests.m; sourceTree = "<group>"; };
+		A99238711D30AFEA00FFE27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AF81CE1D336A9100FBE233 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4AD5E88D52CDF1E54944932 /* Pods-AFN-HTTPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN-HTTPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFN-HTTPS/Pods-AFN-HTTPS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99238441D30AFEA00FFE27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE48569DD689B1A63876933 /* libPods-AFN-HTTPS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A992385D1D30AFEA00FFE27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99238681D30AFEA00FFE27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56BAB0C38F69A69ACDE41BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A962DE4F45C528C68F8B35 /* Pods-AFN-HTTPS.debug.xcconfig */,
+				C4AD5E88D52CDF1E54944932 /* Pods-AFN-HTTPS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A992383E1D30AFEA00FFE27D = {
+			isa = PBXGroup;
+			children = (
+				A99238491D30AFEA00FFE27D /* AFN-HTTPS */,
+				A99238631D30AFEA00FFE27D /* AFN-HTTPSTests */,
+				A992386E1D30AFEA00FFE27D /* AFN-HTTPSUITests */,
+				A99238481D30AFEA00FFE27D /* Products */,
+				A56BAB0C38F69A69ACDE41BC /* Pods */,
+				EECE14D0E270543A18C06D9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A99238481D30AFEA00FFE27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99238471D30AFEA00FFE27D /* AFN-HTTPS.app */,
+				A99238601D30AFEA00FFE27D /* AFN-HTTPSTests.xctest */,
+				A992386B1D30AFEA00FFE27D /* AFN-HTTPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99238491D30AFEA00FFE27D /* AFN-HTTPS */ = {
+			isa = PBXGroup;
+			children = (
+				A992384D1D30AFEA00FFE27D /* AppDelegate.h */,
+				A992384E1D30AFEA00FFE27D /* AppDelegate.m */,
+				A99238501D30AFEA00FFE27D /* ViewController.h */,
+				A9AF81CE1D336A9100FBE233 /* ViewController.m */,
+				A99238531D30AFEA00FFE27D /* Main.storyboard */,
+				A99238561D30AFEA00FFE27D /* Assets.xcassets */,
+				A99238581D30AFEA00FFE27D /* LaunchScreen.storyboard */,
+				A992385B1D30AFEA00FFE27D /* Info.plist */,
+				A992384A1D30AFEA00FFE27D /* Supporting Files */,
+			);
+			path = "AFN-HTTPS";
+			sourceTree = "<group>";
+		};
+		A992384A1D30AFEA00FFE27D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A992384B1D30AFEA00FFE27D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99238631D30AFEA00FFE27D /* AFN-HTTPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99238641D30AFEA00FFE27D /* AFN_HTTPSTests.m */,
+				A99238661D30AFEA00FFE27D /* Info.plist */,
+			);
+			path = "AFN-HTTPSTests";
+			sourceTree = "<group>";
+		};
+		A992386E1D30AFEA00FFE27D /* AFN-HTTPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A992386F1D30AFEA00FFE27D /* AFN_HTTPSUITests.m */,
+				A99238711D30AFEA00FFE27D /* Info.plist */,
+			);
+			path = "AFN-HTTPSUITests";
+			sourceTree = "<group>";
+		};
+		EECE14D0E270543A18C06D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D4DC174E3DB1492C3FDC0 /* libPods-AFN-HTTPS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99238461D30AFEA00FFE27D /* AFN-HTTPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99238741D30AFEA00FFE27D /* Build configuration list for PBXNativeTarget "AFN-HTTPS" */;
+			buildPhases = (
+				06FE8A96178515146C557890 /* [CP] Check Pods Manifest.lock */,
+				A99238431D30AFEA00FFE27D /* Sources */,
+				A99238441D30AFEA00FFE27D /* Frameworks */,
+				A99238451D30AFEA00FFE27D /* Resources */,
+				7E789B879ABC4313E7F951DA /* [CP] Embed Pods Frameworks */,
+				F15B55FB599C60DC73C51646 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFN-HTTPS";
+			productName = "AFN-HTTPS";
+			productReference = A99238471D30AFEA00FFE27D /* AFN-HTTPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A992385F1D30AFEA00FFE27D /* AFN-HTTPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99238771D30AFEA00FFE27D /* Build configuration list for PBXNativeTarget "AFN-HTTPSTests" */;
+			buildPhases = (
+				A992385C1D30AFEA00FFE27D /* Sources */,
+				A992385D1D30AFEA00FFE27D /* Frameworks */,
+				A992385E1D30AFEA00FFE27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99238621D30AFEA00FFE27D /* PBXTargetDependency */,
+			);
+			name = "AFN-HTTPSTests";
+			productName = "AFN-HTTPSTests";
+			productReference = A99238601D30AFEA00FFE27D /* AFN-HTTPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A992386A1D30AFEA00FFE27D /* AFN-HTTPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A992387A1D30AFEA00FFE27D /* Build configuration list for PBXNativeTarget "AFN-HTTPSUITests" */;
+			buildPhases = (
+				A99238671D30AFEA00FFE27D /* Sources */,
+				A99238681D30AFEA00FFE27D /* Frameworks */,
+				A99238691D30AFEA00FFE27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A992386D1D30AFEA00FFE27D /* PBXTargetDependency */,
+			);
+			name = "AFN-HTTPSUITests";
+			productName = "AFN-HTTPSUITests";
+			productReference = A992386B1D30AFEA00FFE27D /* AFN-HTTPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A992383F1D30AFEA00FFE27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gaoyang;
+				TargetAttributes = {
+					A99238461D30AFEA00FFE27D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9CSM98AGDJ;
+						ProvisioningStyle = Automatic;
+					};
+					A992385F1D30AFEA00FFE27D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A99238461D30AFEA00FFE27D;
+					};
+					A992386A1D30AFEA00FFE27D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A99238461D30AFEA00FFE27D;
+					};
+				};
+			};
+			buildConfigurationList = A99238421D30AFEA00FFE27D /* Build configuration list for PBXProject "AFN-HTTPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A992383E1D30AFEA00FFE27D;
+			productRefGroup = A99238481D30AFEA00FFE27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99238461D30AFEA00FFE27D /* AFN-HTTPS */,
+				A992385F1D30AFEA00FFE27D /* AFN-HTTPSTests */,
+				A992386A1D30AFEA00FFE27D /* AFN-HTTPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99238451D30AFEA00FFE27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A992385A1D30AFEA00FFE27D /* LaunchScreen.storyboard in Resources */,
+				A99238571D30AFEA00FFE27D /* Assets.xcassets in Resources */,
+				A99238551D30AFEA00FFE27D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A992385E1D30AFEA00FFE27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99238691D30AFEA00FFE27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06FE8A96178515146C557890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E789B879ABC4313E7F951DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN-HTTPS/Pods-AFN-HTTPS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F15B55FB599C60DC73C51646 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN-HTTPS/Pods-AFN-HTTPS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99238431D30AFEA00FFE27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AF81CF1D336A9100FBE233 /* ViewController.m in Sources */,
+				A992384F1D30AFEA00FFE27D /* AppDelegate.m in Sources */,
+				A992384C1D30AFEA00FFE27D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A992385C1D30AFEA00FFE27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99238651D30AFEA00FFE27D /* AFN_HTTPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99238671D30AFEA00FFE27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99238701D30AFEA00FFE27D /* AFN_HTTPSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99238621D30AFEA00FFE27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99238461D30AFEA00FFE27D /* AFN-HTTPS */;
+			targetProxy = A99238611D30AFEA00FFE27D /* PBXContainerItemProxy */;
+		};
+		A992386D1D30AFEA00FFE27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99238461D30AFEA00FFE27D /* AFN-HTTPS */;
+			targetProxy = A992386C1D30AFEA00FFE27D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99238531D30AFEA00FFE27D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99238541D30AFEA00FFE27D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A99238581D30AFEA00FFE27D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99238591D30AFEA00FFE27D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99238721D30AFEA00FFE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A99238731D30AFEA00FFE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99238751D30AFEA00FFE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A962DE4F45C528C68F8B35 /* Pods-AFN-HTTPS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CSM98AGDJ;
+				INFOPLIST_FILE = "AFN-HTTPS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyuan.AFN-HTTPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		A99238761D30AFEA00FFE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AD5E88D52CDF1E54944932 /* Pods-AFN-HTTPS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9CSM98AGDJ;
+				INFOPLIST_FILE = "AFN-HTTPS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyuan.AFN-HTTPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A99238781D30AFEA00FFE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFN-HTTPSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyuan.AFN-HTTPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN-HTTPS.app/AFN-HTTPS";
+			};
+			name = Debug;
+		};
+		A99238791D30AFEA00FFE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFN-HTTPSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyuan.AFN-HTTPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN-HTTPS.app/AFN-HTTPS";
+			};
+			name = Release;
+		};
+		A992387B1D30AFEA00FFE27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFN-HTTPSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyuan.AFN-HTTPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFN-HTTPS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A992387C1D30AFEA00FFE27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFN-HTTPSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tianyuan.AFN-HTTPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFN-HTTPS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99238421D30AFEA00FFE27D /* Build configuration list for PBXProject "AFN-HTTPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99238721D30AFEA00FFE27D /* Debug */,
+				A99238731D30AFEA00FFE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99238741D30AFEA00FFE27D /* Build configuration list for PBXNativeTarget "AFN-HTTPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99238751D30AFEA00FFE27D /* Debug */,
+				A99238761D30AFEA00FFE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99238771D30AFEA00FFE27D /* Build configuration list for PBXNativeTarget "AFN-HTTPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99238781D30AFEA00FFE27D /* Debug */,
+				A99238791D30AFEA00FFE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A992387A1D30AFEA00FFE27D /* Build configuration list for PBXNativeTarget "AFN-HTTPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A992387B1D30AFEA00FFE27D /* Debug */,
+				A992387C1D30AFEA00FFE27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A992383F1D30AFEA00FFE27D /* Project object */;
+}
